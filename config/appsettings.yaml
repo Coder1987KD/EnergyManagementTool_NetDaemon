@@ -1,0 +1,10 @@
+# Home Assistant connection details
+HomeAssistant:
+  Url: "http://homeassistant.local:8123"
+  Token: "YOUR_LONG_LIVED_ACCESS_TOKEN"
+
+# Custom energy settings
+EnergySettings:
+  BatteryEntity: "sensor.battery_level"
+  SolarProductionEntity: "sensor.solar_production"
+  TariffEntity: "sensor.electricity_tariff"

@@ -1,0 +1,15 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Development secrets
+appsettings.Development.json
+appsettings.json
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+
+# JetBrains Rider
+.idea/
